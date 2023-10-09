@@ -1,0 +1,104 @@
+*, *::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+header{
+    height:12rem;
+    background:#8D7B68;
+    display: flex;
+    align-items:center;
+    gap:4rem;
+    font-family:sans-serif;
+}
+
+
+.headerbutton1{
+    margin-left:30rem;
+    border:none;
+    width:20rem;
+    height:7rem;
+    background:#A4907C;
+    border-radius:0.4rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:2rem;
+}
+
+.headerbutton2{
+    border:none;
+    width:20rem;
+    height:7rem;
+    background:#A4907C;
+    border-radius:0.4rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:2rem;
+}
+
+
+.headerbutton1:hover{
+    cursor:pointer;
+    background:#F1DEC9;
+    transition:0.2s;
+}
+
+.headerbutton2:hover{
+    cursor:pointer;
+    background:#F1DEC9;
+    transition:0.2s;
+}
+
+.menu{
+    font-family: sans-serif;
+    color:white;
+    font-size:3rem;
+}
+
+.artiesten{
+    height:80rem;
+    width:100%;
+    background:#F1DEC9;
+    display:flex;
+    gap:5rem;
+    justify-content:center;
+    align-items:center;
+}
+
+.artiest{
+    width:55rem;
+    height:55rem;
+    background:#A4907C;
+    transition: 0.3s transform;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap:2rem;
+    border-radius:3rem;
+}
+
+.artiest:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+
+.artiestfoto{
+    width:28rem;
+    height:28rem;
+    border-radius:3rem;
+}
+
+
+
+
