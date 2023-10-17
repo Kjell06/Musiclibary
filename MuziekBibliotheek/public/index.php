@@ -29,24 +29,7 @@
         include('../source/views/card.php');
     }
     ?>
-        <section class="artiesten">
-            <section class="artiest">
-                <img class="artiestfoto" src="/img/Albumdualipa.webp" alt="artiestfoto">
-                <p class="titelnummer">Dua Lipa - Dont start now</p>
-                <p class="genre">Pop</p>
-            </section>
-            <section class="artiest">
-                <img class="artiestfoto" src="/img/AlbumElton.webp" alt="artiestfoto">
-                <p class="titelnummer">Elton John - Cold Heart</p>
-                <p class="genre">Pop</p>
-            </section>
-            <section class="artiest">
-                <img class="artiestfoto" src="/img/Albumtheweekend.png" alt="artiestfoto">
-                <p class="titelnummer">The Weekend - Starboy</p>
-                <p class="genre">Pop</p>
-
-            </section>
-        </section>
+    
     </article>
 </main>
 
